@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Personal Website</h1>
-    <p>Selamat datang di website pribadi saya.</p>
+    <h1 class="judul">Personal Website</h1>
+    <p class="selamat-datang">Selamat datang di website pribadi saya.</p>
     <nav>
         <a href="index.html">Home</a> |
         <a href="about.html">About</a> |
@@ -21,9 +22,18 @@
 
     <body>
         <h3>Halo, Saya Syakhira Rizkyta Mutiara Barnas</h3>
-        <img src="assets\profile.jpeg" width="240">
-        <p> Saya adalah mahasiswa yang sedang belajar pengembangan web. <br>
-            Website ini saya buat untuk melatih kemampuan saya menggunakan HTML dan CSS.</p>
+        <div class="profile-card">
+    <img src="assets/profile.jpeg" width="240" class="foto-animasi">
+
+    <div class="profile-info">
+        <p>“Enjoy the little things, for one day you may look back and realize they were the big things.”</p>
+    </div>
+</div>
+        <p class="deskripsi">
+    Saya adalah mahasiswa yang sedang belajar pengembangan web.
+    <br>
+    Website ini saya buat untuk melatih kemampuan saya menggunakan HTML dan CSS.
+</p>
 
 
         <p>Di website ini anda dapat mengenal saya, melihat beberapa project, serta menghubungi saya melalui halaman
